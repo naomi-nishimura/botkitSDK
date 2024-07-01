@@ -4,7 +4,7 @@
     },
     "app": {
         "apiPrefix" : "",
-        "url": "https://038b-126-213-139-105.ngrok-free.app"
+        "url": "https://botkitsdk.onrender.com/"
     },
     "validations": {
         "leastNodeVersion": 10

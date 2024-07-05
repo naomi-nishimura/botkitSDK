@@ -21,7 +21,11 @@ module.exports = {
         } else if(!data.agent_transfer){
             //Forward the message to bot
             return sdk.sendBotMessage(data, callback);
-        } else {
+        } else if(data.message === "はひふへほ"){
+            //Forward the message to bot
+            console.log("はひふへほが呼び出されました");
+            return sdk.sendUserMessage(data, callback);
+        }  else {
             data.message = "Agent Message";
             return sdk.sendUserMessage(data, callback);
         }

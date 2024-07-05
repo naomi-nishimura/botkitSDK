@@ -2,7 +2,8 @@ var Application = require("./lib/app");
 var Server      = require("./lib/server");
 var sdk         = require("./lib/sdk");
 var config      = require("./config");
-
+config.server.port = process.env.PORT || 4000;
+console.log(config.server.port);
 var app    = new Application(null, config);
 var server = new Server(config, app);
 

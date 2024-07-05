@@ -16,6 +16,7 @@ module.exports = {
     on_user_message : function(requestId, data, callback) {
         if (data.message === "Hi") {
             data.message = "Hello";
+            console.log("Hiが検出されました。");
             //Sends back 'Hello' to user.
             return sdk.sendUserMessage(data, callback);
         } else if(!data.agent_transfer){
@@ -33,6 +34,7 @@ module.exports = {
     on_bot_message  : function(requestId, data, callback) {
         if (data.message === 'hello') {
             data.message = 'The Bot says hello!';
+            console.log("helloが検出されました。");
         }
         //Sends back the message to user
         

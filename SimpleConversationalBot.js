@@ -1,5 +1,5 @@
-var botId = "st-b3692e16-b2d6-5ec5-b808-710eef289ac0";
-var botName = "技術検証用ボット";
+var botId = "st-6e8694ce-a3f2-554d-b153-d434d3d77818";
+var botName = "DHトライアル用bot";
 var sdk = require("./lib/sdk");
 
 /*

@@ -4,7 +4,7 @@
     },
     "app": {
         "apiPrefix" : "",
-        "url": "localhost"
+        "url": "https://botkitsdk.onrender.com/"
     },
     "validations": {
         "leastNodeVersion": 10
